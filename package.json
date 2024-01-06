@@ -4,7 +4,7 @@
   "description": "La Fundación Casa Pintada es un proyecto cultural surgido y consolidado gracias a la colaboración de la Fundación Cristóbal Gabarrón y el Ayuntamiento de Mula.",
   "source": "index.js",
   "scripts": {
-    "dev": "parcel --open ./index.js",
+    "dev": "parcel serve ./index.html --port 8888",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
